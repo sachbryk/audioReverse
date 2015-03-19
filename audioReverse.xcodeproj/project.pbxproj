@@ -1,0 +1,443 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F067756B1AB9DF2100763D83 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F067756A1AB9DF2100763D83 /* main.m */; };
+		F067756E1AB9DF2100763D83 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F067756D1AB9DF2100763D83 /* AppDelegate.m */; };
+		F06775711AB9DF2100763D83 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F06775701AB9DF2100763D83 /* ViewController.m */; };
+		F06775741AB9DF2100763D83 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F06775721AB9DF2100763D83 /* Main.storyboard */; };
+		F06775761AB9DF2100763D83 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F06775751AB9DF2100763D83 /* Images.xcassets */; };
+		F06775791AB9DF2100763D83 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F06775771AB9DF2100763D83 /* LaunchScreen.xib */; };
+		F06775851AB9DF2100763D83 /* audioReverseTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F06775841AB9DF2100763D83 /* audioReverseTests.m */; };
+		F067758F1AB9E03C00763D83 /* sample.m4a in Resources */ = {isa = PBXBuildFile; fileRef = F067758E1AB9E03C00763D83 /* sample.m4a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F067757F1AB9DF2100763D83 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F067755D1AB9DF2100763D83 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F06775641AB9DF2100763D83;
+			remoteInfo = audioReverse;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F06775651AB9DF2100763D83 /* audioReverse.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = audioReverse.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F06775691AB9DF2100763D83 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F067756A1AB9DF2100763D83 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F067756C1AB9DF2100763D83 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F067756D1AB9DF2100763D83 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F067756F1AB9DF2100763D83 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F06775701AB9DF2100763D83 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F06775731AB9DF2100763D83 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F06775751AB9DF2100763D83 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		F06775781AB9DF2100763D83 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		F067757E1AB9DF2100763D83 /* audioReverseTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = audioReverseTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F06775831AB9DF2100763D83 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F06775841AB9DF2100763D83 /* audioReverseTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = audioReverseTests.m; sourceTree = "<group>"; };
+		F067758E1AB9E03C00763D83 /* sample.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = sample.m4a; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F06775621AB9DF2100763D83 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F067757B1AB9DF2100763D83 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F067755C1AB9DF2100763D83 = {
+			isa = PBXGroup;
+			children = (
+				F06775671AB9DF2100763D83 /* audioReverse */,
+				F06775811AB9DF2100763D83 /* audioReverseTests */,
+				F06775661AB9DF2100763D83 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F06775661AB9DF2100763D83 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F06775651AB9DF2100763D83 /* audioReverse.app */,
+				F067757E1AB9DF2100763D83 /* audioReverseTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F06775671AB9DF2100763D83 /* audioReverse */ = {
+			isa = PBXGroup;
+			children = (
+				F067758E1AB9E03C00763D83 /* sample.m4a */,
+				F067756C1AB9DF2100763D83 /* AppDelegate.h */,
+				F067756D1AB9DF2100763D83 /* AppDelegate.m */,
+				F067756F1AB9DF2100763D83 /* ViewController.h */,
+				F06775701AB9DF2100763D83 /* ViewController.m */,
+				F06775721AB9DF2100763D83 /* Main.storyboard */,
+				F06775751AB9DF2100763D83 /* Images.xcassets */,
+				F06775771AB9DF2100763D83 /* LaunchScreen.xib */,
+				F06775681AB9DF2100763D83 /* Supporting Files */,
+			);
+			path = audioReverse;
+			sourceTree = "<group>";
+		};
+		F06775681AB9DF2100763D83 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F06775691AB9DF2100763D83 /* Info.plist */,
+				F067756A1AB9DF2100763D83 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F06775811AB9DF2100763D83 /* audioReverseTests */ = {
+			isa = PBXGroup;
+			children = (
+				F06775841AB9DF2100763D83 /* audioReverseTests.m */,
+				F06775821AB9DF2100763D83 /* Supporting Files */,
+			);
+			path = audioReverseTests;
+			sourceTree = "<group>";
+		};
+		F06775821AB9DF2100763D83 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F06775831AB9DF2100763D83 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F06775641AB9DF2100763D83 /* audioReverse */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F06775881AB9DF2100763D83 /* Build configuration list for PBXNativeTarget "audioReverse" */;
+			buildPhases = (
+				F06775611AB9DF2100763D83 /* Sources */,
+				F06775621AB9DF2100763D83 /* Frameworks */,
+				F06775631AB9DF2100763D83 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = audioReverse;
+			productName = audioReverse;
+			productReference = F06775651AB9DF2100763D83 /* audioReverse.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F067757D1AB9DF2100763D83 /* audioReverseTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F067758B1AB9DF2100763D83 /* Build configuration list for PBXNativeTarget "audioReverseTests" */;
+			buildPhases = (
+				F067757A1AB9DF2100763D83 /* Sources */,
+				F067757B1AB9DF2100763D83 /* Frameworks */,
+				F067757C1AB9DF2100763D83 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F06775801AB9DF2100763D83 /* PBXTargetDependency */,
+			);
+			name = audioReverseTests;
+			productName = audioReverseTests;
+			productReference = F067757E1AB9DF2100763D83 /* audioReverseTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F067755D1AB9DF2100763D83 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = sx;
+				TargetAttributes = {
+					F06775641AB9DF2100763D83 = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					F067757D1AB9DF2100763D83 = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = F06775641AB9DF2100763D83;
+					};
+				};
+			};
+			buildConfigurationList = F06775601AB9DF2100763D83 /* Build configuration list for PBXProject "audioReverse" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F067755C1AB9DF2100763D83;
+			productRefGroup = F06775661AB9DF2100763D83 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F06775641AB9DF2100763D83 /* audioReverse */,
+				F067757D1AB9DF2100763D83 /* audioReverseTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F06775631AB9DF2100763D83 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F067758F1AB9E03C00763D83 /* sample.m4a in Resources */,
+				F06775741AB9DF2100763D83 /* Main.storyboard in Resources */,
+				F06775791AB9DF2100763D83 /* LaunchScreen.xib in Resources */,
+				F06775761AB9DF2100763D83 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F067757C1AB9DF2100763D83 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F06775611AB9DF2100763D83 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F06775711AB9DF2100763D83 /* ViewController.m in Sources */,
+				F067756E1AB9DF2100763D83 /* AppDelegate.m in Sources */,
+				F067756B1AB9DF2100763D83 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F067757A1AB9DF2100763D83 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F06775851AB9DF2100763D83 /* audioReverseTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F06775801AB9DF2100763D83 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F06775641AB9DF2100763D83 /* audioReverse */;
+			targetProxy = F067757F1AB9DF2100763D83 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F06775721AB9DF2100763D83 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F06775731AB9DF2100763D83 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F06775771AB9DF2100763D83 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F06775781AB9DF2100763D83 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F06775861AB9DF2100763D83 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F06775871AB9DF2100763D83 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F06775891AB9DF2100763D83 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = audioReverse/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/audioReverse",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F067758A1AB9DF2100763D83 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = audioReverse/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/audioReverse",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F067758C1AB9DF2100763D83 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = audioReverseTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/audioReverse.app/audioReverse";
+			};
+			name = Debug;
+		};
+		F067758D1AB9DF2100763D83 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = audioReverseTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/audioReverse.app/audioReverse";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F06775601AB9DF2100763D83 /* Build configuration list for PBXProject "audioReverse" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F06775861AB9DF2100763D83 /* Debug */,
+				F06775871AB9DF2100763D83 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F06775881AB9DF2100763D83 /* Build configuration list for PBXNativeTarget "audioReverse" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F06775891AB9DF2100763D83 /* Debug */,
+				F067758A1AB9DF2100763D83 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F067758B1AB9DF2100763D83 /* Build configuration list for PBXNativeTarget "audioReverseTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F067758C1AB9DF2100763D83 /* Debug */,
+				F067758D1AB9DF2100763D83 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F067755D1AB9DF2100763D83 /* Project object */;
+}
